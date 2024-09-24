@@ -1,0 +1,61 @@
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+  "studentID": "NW0001283",
+  "password": "123456"
+}
+
+# GET http://localhost:3001/api/buses
+
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#   "users": [
+#   {
+#     "studentID": "NW0001283",
+#     "password": "123456",
+#     "name": "Edumudi Srikar",
+#     "destination": "Nxtgen"
+#   },
+#   {
+#     "studentID": "NW0000088",
+#     "password": "123456",
+#     "name": "Tallam Vamsi",
+#     "destination": "Serinity/Relic"
+#   }
+# ]
+# }
+
+# GET http://localhost:3001/api/buses?destination=Nxtgen
+
+# POST http://localhost:3001/api/add_buses
+# Content-Type: application/json
+
+# [
+#   {
+#     "busID": "nxtgen_1",
+#     "destination": "Nxtgen",
+#     "timing": "4:15 PM",
+#     "seatsAvailable": 40
+#   },
+#   {
+#     "busID": "nxtgen_2",
+#     "destination": "Nxtgen",
+#     "timing": "4:30 PM",
+#     "seatsAvailable": 40
+#   },
+#   {
+#     "busID": "serinity_1",
+#     "destination": "Serinity/Relic",
+#     "timing": "4:15 PM",
+#     "seatsAvailable": 40
+#   },
+#   {
+#     "busID": "apex_1",
+#     "destination": "Apex And Suguna",
+#     "timing": "4:05 PM",
+#     "seatsAvailable": 40
+#   }
+# ]
