@@ -6,9 +6,9 @@
 #   "password": "123456"
 # }
 
-# GET http://localhost:3001/api/buses
+GET http://localhost:3005/api/buses?destination=Nxtgen
 
-GET https://bus-disbursement-backend-1.onrender.com/api/buses
+# GET https://bus-disbursement-backend-1.onrender.com/api/buses?destination=Serinity/Relic
 
 # POST http://localhost:3001/api/users
 # Content-Type: application/json

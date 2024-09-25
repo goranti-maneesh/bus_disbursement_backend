@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use("/api", require("./src/routes/booking"));
 app.use("/api", require("./src/routes/auth"));
-app.use("/api", require("./src/routes/addData"))
+app.use("/api", require("./src/routes/addData"));
 
-const PORT = 3001;
+const PORT = 3005;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
