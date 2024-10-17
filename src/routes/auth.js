@@ -43,7 +43,9 @@ router.post("/login", (req, res) => {
 		};
 
 		// Generate a JWT token
-		const token = jwt.sign(payload, "JWT_token", { expiresIn: "1h" });
+		const token = jwt.sign(payload, "Bus Disbersement JWT Token", {
+			expiresIn: "1h",
+		});
 
 		// Send the token as a response
 		res.json({
